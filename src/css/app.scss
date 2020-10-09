@@ -1,0 +1,47 @@
+// app global css in SCSS form
+* {
+  font-family: 'Montserrat';
+}
+
+body, html {
+  padding: 0;
+  margin: 0;
+  // width: 100%;
+  // min-height: 100vh;
+}
+body {
+  background-color: #fff;
+
+  @media screen and (min-width: 768px) {
+    background-color: #F8FAFB;
+  }
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 600;
+}
+p, h4 {
+  margin: 0;
+}
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.btn {
+  padding: 10px;
+  width: 45%;
+  font-size: 16px;
+  font-weight: 500;
+  letter-spacing: .05em;
+}
+
+.btn-primary {
+  background-color: #344FA5;
+  color: #fff;
+}
+.btn-secundary {
+  background-color: #6FCF97;
+  color: #fff;
+}
